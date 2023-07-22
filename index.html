@@ -25,10 +25,10 @@ font-family: 'Open Sans', sans-serif;
                     </div>
                     <div class=" flex justify-between">
                         <ul class="text-xl flex gap-6 items-end align-middle align-text-middle">
-                            <li class="hover:underline"> Home </li>
-                            <li class="hover:underline"> Product </li>
-                            <li class="hover:underline">About Us</li>
-                            <li class="hover:underline">Contact Us</li>
+                            <li class="hover:underline"> <a href="#home">Home</a></li>
+                            <li class="hover:underline"> <a href="#product">Product</a>  </li>
+                            <li class="hover:underline"> <a href="#about">About Us</a></li>
+                            <li class="hover:underline"> <a href="#contact">Contact Us</a> </li>
                             
                         </ul>
                     </div>
@@ -36,7 +36,7 @@ font-family: 'Open Sans', sans-serif;
               
             </nav>
 <!--         banner section -->
-        <div class="flex flex-col md:flex-row justify-between items-center">
+        <div id="home" class="flex flex-col md:flex-row justify-between items-center">
             <div class="space-y-3">
                 <h1 class="text-7xl uppercase font-bebas">
                     <span class="text-[#FABE4C]"> Be the Penguins</span> <br>
@@ -57,7 +57,7 @@ font-family: 'Open Sans', sans-serif;
         </div>
     </header>
     <section>
-        <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div id="about" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div class="grid gap-5 row-gap-10 lg:grid-cols-2">
               <div class="flex flex-col justify-center">
                 <div class="max-w-xl mb-6">
@@ -137,7 +137,7 @@ font-family: 'Open Sans', sans-serif;
     </section>
 
     <main class="max-w-7xl mx-auto">
-        <section class="py-12">
+        <section id="product" class="py-12">
             <h3 class="text-5xl font-bebas"> Women Jackets</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 p-4 ">
                <!--  card 1 -->
@@ -262,7 +262,7 @@ font-family: 'Open Sans', sans-serif;
 
         <section>
             <section class="bg-white dark:bg-gray-900">
-                <div class="container px-6 py-12 mx-auto">
+                <div id="contact" class="container px-6 py-12 mx-auto">
                     <div class="text-center">
                         <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
             
